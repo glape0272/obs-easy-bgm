@@ -8,7 +8,7 @@ media_source_name = "BGM"
 playlist = []  # シャッフルリスト
 shuffle_enabled = True  # シャッフルの有無
 default_volume = -30.0  # 初期音量（デシベル）
-volume_set = False  # 音量を初回のみ設定するフラグ
+volume_set = False
 
 def script_description():
     return "BGMをシャッフル再生するOBSスクリプト。BGMソースを作成するには、[BGMソースを作成] ボタンを押してください。"
